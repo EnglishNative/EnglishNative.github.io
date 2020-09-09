@@ -1,0 +1,586 @@
+/**********************/
+/*осн стили для макета*/
+/**********************/
+@charset "utf-8"
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #222222;
+	background: #222 !important;
+    color: #fff;
+}
+
+body,
+body * {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/*@font-face {
+	font-family: Red_ring_regular;
+	src: url(main-sborka/assets/font/REDRING-REGULAR.OTF);
+}
+
+@font-face {
+	font-family: Red_ring_ligth;
+	src: url(main-sborka/assets/font/Red Ring light.ttf);
+}
+
+@font-face {
+	font-family: Red_ring_black;
+	src: url(main-sborka/assets/font/REDRING-BLACK.OTF);
+}
+
+@font-face {
+	font-family: Red_ring_bold;
+	src: url(main-sborka/assets/font/Red Ring_bold.ttf);
+}*/
+
+.babyswimming_head-image{
+/*	background-image: url('http://www.kimberly.ru/experiments/lp-babyswimming/baby.jpg');*/
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	
+	display: block;
+	width: 100%;
+	height: 600px;
+	height: 100%;
+	max-height: 640px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+/*jivo*/
+.label_39._bottom_3v._pad100_GR, .label_39._left_2d._pad100_GR, .label_39._right_1y._pad100_GR {
+/*	background-color: #0099ff !important;*/
+}
+
+/*2 экран - начало*/
+div.our-services__container {
+	display: block;
+	background-image: url(assets/img/bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+div.container {}
+h2.our-services__header {
+	font-size: 32px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+hr.our-services__underline {
+	color: #7AE000;
+	background-color: #7AE000;
+	display: block;
+	width: 26%;
+	border: solid 1px #7AE000;
+	border-radius: 6px;
+	height: 3px;
+	margin: 0 auto; 
+}
+p.our-services__description {
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.4em;
+	text-align: center;
+	margin: 1.2em 0;
+	font-weight: 400;
+}
+
+p.our-services__description:nth-of-type(3) {
+	margin-bottom: 48px;
+}
+
+
+div.row {}
+
+
+div.our-services__usluga-item.col-md-4.col-sm-12.col-xs-12 {}
+div.our-services__usluga-item {
+	text-align: center;
+}
+div.our-services__usluga__img-container {
+	display: block;
+	overflow: hidden;
+	border: solid 3px rgb(211, 63, 60);
+	/*border: solid 2px #7AE000;*/
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+img.our-services__usluga__img {
+	width: 100%;
+	height: auto;
+}
+
+h3.our-services__usluga__title {
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 400;
+}
+p.our-services__usluga__description {
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 2em;
+}
+
+
+
+
+
+
+
+div.col-md-12.our-services__btn-container {
+	display: block;
+	width: 100%;
+	text-align: center;
+	/*margin-bottom: 32px;*/
+	margin: 48px 0;
+}
+
+a.our-services__btn {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	font-size: 18px;
+	padding: 0.4em 1.0em;
+	border-radius: 4px;
+	border: solid 3px hsla(1, 78%, 53%, 1);
+	border: solid 1px rgb(211, 63, 60);
+	-webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,.1);
+	        box-shadow: 0px 0px 6px 1px rgba(0,0,0,.1);
+	display: inline-block;
+	/* float: right; */
+	text-align: center;
+
+	background-color: #d33f3c;
+	background-color: rgb(211, 63, 60);
+}
+a.our-services__btn:hover {
+	text-decoration: underline;
+	color: #fff;
+	background-color: rgba(211, 63, 60, 0.8);
+    border-color: rgb(211, 63, 60);
+}
+
+
+/*/2 экран*/
+
+/*3 экран*/
+
+.container-fluid.photogallery__container {
+	margin: 0;
+	padding: 0;
+	background-color: #222;
+	display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.container-fluid {}
+.photogallery__container {}
+
+div.photogallery__photo-item.col-md-4.col-sm3.col-xs-2 {
+	padding: 0;
+	margin: 0;
+}
+div.photogallery__photo-item {}
+a.photogallery__large-photo {
+	overflow: hidden;
+}
+img.photogallery__small-photo {
+	width: 100%;
+	height: auto;
+}
+
+.photogallery__btn-container {
+	margin: 32px auto 48px;
+}
+
+/*/3 экран*/
+
+/*4 экран*/
+/*в html это 5 экран */
+
+div.club-cards__container {
+	background-image: url(assets/img/bg5.jpg);
+	background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+div.club-cards__ten {
+	margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+h2.club-cards__header {
+	font-size: 32px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-top: 1.2em;
+}
+div.club-cards__item  {
+	margin-bottom: 48px;
+	color: #fff;
+	border-radius: 6px;
+	border-radius: 2px;
+    border: 2px solid #171717;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+div.club-cards__item:hover {
+	background-color: rgba(255,255,255,0.06);
+}
+
+div.club-cards__item:hover h3.club-cards__title {
+	text-decoration: underline;
+}
+
+
+h3.club-cards__title {
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-weight: 600;
+	margin-top: 1.0em;
+}
+p.club-cards__num-month {
+	font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.3em;
+    line-height: normal;
+}
+p.club-cards__time {
+	font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.3em;
+    line-height: normal;
+}
+p.club-cards__descr {
+	font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.3em;
+    line-height: normal;
+}
+hr.club-cards__line {
+	display: block;
+	width: 90%;
+    background-color: #7AE000;
+	background-color: #ebebeb;
+
+	color: #7AE000;
+	color: #ebebeb;
+    display: block;
+    border: solid 1px #7AE000;
+    border: solid 1px #ebebeb;;
+    border-radius: 6px;
+    height: 1px;
+}
+ul.club-cards__list-options {
+	display: block;
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 2.6em;
+}
+li.club-cards__text-option {
+    margin-bottom: 0.6em;
+}
+div.club-cards__btn-container {
+	display: block;
+	width: 100%;
+	margin: 2em 0;
+	padding: 0;
+	text-align: center;
+}
+/*/4 экран*/
+
+
+/*5 экран*/
+/*наши преимущества*/
+div.our-plus__container {
+	background-image: url(assets/img/bg6.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+
+}
+div.our-plus__ten {
+	margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+h2.our-plus__header-h2 {
+	font-size: 48px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.4), 1px 1px 2px rgba(0,0,0,.2);
+}
+h3.our-plus__header-h3 {
+	font-size: 32px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.4), 1px 1px 2px rgba(0,0,0,.2);
+}
+
+div.our-plus__item.col-md-3.col-sm-6.col-xs-12 {
+	color: #fff;
+}
+div.our-plus__pict-container {}
+div.our-plus__pict-container > i.fas {
+	/*color: #7AE000;*/
+	color: #fff;
+	text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+div.our-plus__pict-container:hover > i.fas {
+	color: #7AE000;
+}
+img.our-plus__pict {}
+h3.our-plus__item-title {
+	color: #fff;
+	color: #7AE000;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+}
+p.our-plus__item-description {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+div.our-plus__btn-container {
+	display: block;
+	width: 100%;
+	margin: 32px 0 48px;
+	padding: 0;
+	text-align: center;
+}
+/*/5 экран*/
+
+/*6 экран пропускаю такое понятие, чтоб не путаться*/
+
+/*7 экран*/
+/*команда*/
+/*/7 экран*/
+
+/*8 экран  - расписание*/
+div.container-fluid.schedule__container {
+	/*background-color: #222;*/ 
+	background-image: url(/assets/img/bg-cir.jpg); 
+	background-color: rgba(255,255,255,0.2); 
+	background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    padding: 0; 
+	
+}
+div.schedule__ten {
+	background-color: rgba(0,0,0,0.78); 
+	padding: 0 15px 6px 15px; 
+    width: 100%; 
+    height: 100%; 
+}
+div.schedule__container {} 
+h2.schedule__header-h2 {
+    margin-bottom: 0.6em;
+	padding: 0.6em 0 0.2em;
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.4), 1px 1px 2px rgba(0,0,0,.2);
+}
+h3.our-plus__header-h3 {
+	display: none;
+
+}
+.curDay {
+	background: #ebebeb;
+	background: #fffbe5 !important;
+	background-color: rgba(255,255,255,0.1) !important; 
+}
+/*/8 экран  - расписание*/
+
+/*9 экран  - новости*/
+div.news__container {
+	display: block;
+    background-image: url(assets/img/bg2.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2.news__header {
+	font-size: 32px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 1.2em 0 0.1em;
+}
+hr.news__underline.our-services__underline {
+	color: #7AE000;
+    background-color: #7AE000;
+    display: block;
+    width: 26%;
+    border: solid 1px #7AE000;
+    border-radius: 6px;
+    height: 3px;
+    margin: 0 auto 2em;
+}
+
+
+div.news__item-container.col-md-4.col-sm-4.col-xs-12 {}
+div.news__item {
+	display: block;
+    overflow: hidden;
+    border: solid 2px rgb(211, 63, 60);
+    border:solid 2px yellow;
+    /* border: solid 2px #7AE000; */
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    border-radius: 2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2.6em;
+}
+div.news__img-container {}
+img.news__img {}
+h3.news__title {
+	color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+}
+p.news__description {
+	display: block;
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 2.6em;
+    padding: 0 1.2em;
+}
+div.news__btn-container {
+	display: block;
+    width: 100%;
+    margin: 2em 0;
+    padding: 0;
+    text-align: center;
+    background-color: yellow;
+}
+
+
+
+
+/*стили для слайдера если вертикальная прокрутка*/
+
+
+/*******************/
+/*******media*******/
+/*******************/
+/*large pc*/
+@media (min-device-width: 1367px) {
+	.babyswimming_head-image {max-height: 800px;
+	    background-position-y: center;}
+
+	img.photogallery__small-photo {
+		max-height: 20vw;
+	}
+}
+
+
+/*pc*/
+@media (min-device-width: 991px) and (max-device-width: 1366px) {
+
+	img.photogallery__small-photo {
+		max-height: 20vw;
+	}
+}
+
+
+/*ipad pro*/
+@media (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {}
+
+
+/*ipad*/
+@media (min-device-width: 768px) and (max-device-width: 990px) {}
+
+
+/*ipad*/
+@media (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+
+/*ipad portrait*/
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {}
+
+
+/*ipad portrait*/
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {}
+
+
+/*iphone orientation landscape*/
+@media (min-device-width: 480px) and (max-device-width: 767px) {}
+
+
+/*iphone orientation portraite*/
+@media (min-device-width: 240px) and (max-device-width: 479px) {}

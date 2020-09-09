@@ -1,0 +1,741 @@
+/********************/
+/*стили для 1 экрана*/
+/********************/
+body,
+body * {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.container1 {
+	background-color: #222;
+}
+
+.header__nav-container {
+	background-color: #222;
+	background: #222;
+	/*background-color: transparent;
+	background: transparent;*/
+	position: relative;
+	/*position: absolute;*/
+	left: 0;
+	top: 0;
+	right: 0;
+	width: 100%;
+	display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+	
+}
+
+/*нав панель*/
+section.top-nav {
+	position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #222;
+    background: #222;
+    z-index: 1000;
+	background-color: #222;
+	/*background-color: transparent;*/
+	/*background: transparent;*/
+	/*background-image: url(assets/img/kimberly-fit__logo--transparent.png);*/
+	background-repeat: no-repeat;
+	background-position: left center;
+	color: #fff;
+	display: block;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background-size: contain;
+    background-size: 250px;
+}
+div.logo {}
+div.top-nav__logo {
+	/*background-image: url(https://www.kimberly.ru/experiments/probka1/assets/img/xfit--logo-xfit-min.png);*/
+	/*background-image: url(assets/img/kimberly-fit__logo--black.jpeg);*/
+	/*background-image: url(assets/img/kimberly-fit__logo--transparent.png);*/
+	/*background-image: url(assets/img/kimberly-fit__logo--white.jpeg);*/
+	/*background-image: url(assets/img/kimberly-fit__logo--black.jpg);*/
+	/*background-image: url(assets/img/kimberly-fit__logo--white.jpg);*/
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: solid 0px #ebebeb;
+	min-height: 100px;
+	display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.top-nav__logo > span {
+	font-size: 32px;
+}
+div.top-nav__logo > .logo-style1 {
+	color: white;
+	font-weight: 200;
+
+}
+div.top-nav__logo > .logo-style2 {
+	color: yellow;
+	font-weight: 600;
+}
+div.top-nav__adr {
+	text-align: center;
+    font-weight: 600;
+}
+div.top-nav__tel {}
+a.top-nav__tel-link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+a.top-nav__tel-link:hover{
+	text-decoration: none;
+}
+span.top-nav__tel-num {
+	font-size: 28px;
+	color: yellow;
+}
+div.top-nav__menu {
+
+}
+
+.top-nav__menu ul.top-nav__menu__list {
+	list-style-type: none;
+}
+
+div.top-nav__menu {
+	text-align: right;
+}
+/*/нав панель*/
+
+
+/*слайдеры - картинки*/
+.slide_1 {
+	/*background-image: url(assets/img/slider-1.jpg);*/
+	background-image: url(https://kidszion.com/wp-content/uploads/2019/02/conseq_uuntmagni.jpg);
+	background-image: url(https://maaser.ru/u/doc5b4cc8e1a1190954651749/school.jpg);
+	background-image: url(https://d34t42wpe6kclg.cloudfront.net/bg/live/publication/1/1/8/118172/pictures/2/poslanitsi-na-zdraveto-head-media.jpg);
+	background-image: url(https://teletype.in/files/40/b4/40b49a4f-fe05-4215-b6e9-5427055f13c5.png);
+	background-position: 0px -110px !important;
+}
+
+.slide_2 {
+	/*background-image: url(https://wallbox.ru/resize/1400x1050/wallpapers/main/201519/53c5b9b47ebc246.jpg);
+	background-image: url(assets/img/slider-2.jpg);*/
+	
+}
+
+.slide_3 {
+	/*background-image: url(https://www.tokingtimes.com/wp-content/uploads/2018/09/Cannabis-and-yoga.jpg);
+	background-image: url(assets/img/slider-3.jpg);*/
+}
+
+/*********/
+/* slick */
+/*********/
+
+.top-slider,
+.babyswimmingOtzyvy {
+	/*max-width: 1170px;*/
+	width: 90%;
+	width: 100%;
+	margin: 0px auto;
+	height: 100%;
+	height: 90%;
+	height: 86vh;
+	overflow: hidden;
+}
+
+.slick-list {
+	height: 100% !important;
+	overflow: hidden;
+}
+
+.sl__slide:hover, .sl__slide:active, .sl__slide:focus, .sl__slide:focus-within, .sl__slide:visited{
+	border: 0px solid #fff !important;
+}
+
+.slick-list .draggable:hover,
+.slick-list .draggable:active,
+.slick-list .draggable:focus,
+.slick-list .draggable:focus-within,
+.slick-list .draggable:visited {
+	border: none;
+}
+
+.slick-list,
+.slick-list:hover,
+.slick-list:active,
+.slick-list:focus,
+.slick-list:focus-within,
+.slick-list:visited {
+	border: none;
+}
+
+/*стили для слайдера*/
+
+.sl__slide {
+	position: relative;
+	border: none;
+	/*display: block;*/
+}
+
+.sl__slide {
+	display: block;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	min-height: 600px;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.sl__slide:hover {
+	border: none;
+}
+
+.sl__text {
+	width: 100%;
+	color: #fff;
+	text-align: left;
+	padding: 20px;
+	margin: 0 auto;
+    border: solid 2px #ebebeb;
+    border-radius: 6px;
+    position: relative;
+    background-color: rgba(255,255,255,0.1);
+
+    text-shadow: 1px 1px 2px rgba(0,0,0,.4), 1px 1px 2px rgba(0,0,0,.2);
+    margin: 110px auto 0.1em !important;
+    text-transform: none !important; 
+    /*box-shadow: inset 0px 0px 2px 1px rgba(0,0,0,0.2), 0px 0px 6px 2px rgba(0,0,0,0.4);*/
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.4);
+            box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.4);
+        
+}
+
+.sl__zag1 {
+	font-size: 56px;
+	margin: 0;
+	/*font-family: Red_Ring_regular;*/
+	/*font-family: Bookman_old_style__bold;*/
+
+}
+
+.sl__zag2 {
+	font-size: 36px;
+	margin: 0;
+}
+
+.sl__zag2 > span {
+	color: #d33f3c;
+}
+
+.sl__text1 {
+	font-size: 26px;
+	margin: 1.2em 0 0;
+}
+
+.sl__text1 > span {
+	color: #d33f3c;
+	/*font-weight: 600;*/
+}
+
+.s1__text1 > .spo,
+.spo {
+	/*background: #7AE000;*/
+	color: #7AE000;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.sl__text2 {
+	font-size: 16px;
+}
+
+.slide__btn-container.spoiler {}
+
+.slide__btn-container {}
+
+.spoiler {}
+
+.btn.spo-link {}
+
+.btn {
+	color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    padding: 0.4em 1.0em;
+    border-radius: 4px;
+    border: solid 3px hsla(1, 78%, 53%, 1);
+    border: solid 1px rgb(211, 63, 60);
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,.1);
+            box-shadow: 0px 0px 6px 1px rgba(0,0,0,.1);
+    display: inline-block;
+    /* float: right; */
+    text-align: center;
+}
+
+.btn:hover {
+	text-decoration: underline;
+	color: #fff;
+	background-color: rgba(211, 63, 60, 0.8);
+    border-color: rgb(211, 63, 60);
+}
+
+.spo-link {
+	background-color: #d33f3c;
+	background-color: rgb(211, 63, 60);
+}
+
+/*стрелка от автора к комментарию*/
+.arrow_box {
+	/*position: relative;
+	background: #ff8700;
+	border: 3px solid #fff;*/
+	font-size: 55px;
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 10%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(255, 135, 0, 0);
+	border-top-color: #ff8700;
+	border-width: 20px;
+	margin-left: -20px;
+}
+.arrow_box:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fff;
+	border-width: 24px;
+	margin-left: -24px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	font-size: 46px;
+}
+.slick-prev {
+	left: -25px;
+	left: -4vw;
+	left: -50px;
+}
+.slick-prev:before, .slick-next:before {
+	color: #3d9be9;
+	color: #ff8700;
+	color: #7AE000;
+	color: #d33f3c;
+}
+
+/*альтернативные стрелки*/
+
+.slick-prev::before,.slick-prev:before {
+	content: '\2039';
+}
+
+.slick-prev:before, .slick-next:before {
+	font-size: 130px;
+}
+
+.slick-next:before {
+	content: '\203A';
+}
+
+.slick-prev {
+	left: -60px;
+	left: 1%;
+}
+.slick-prev, .slick-next {
+	top: 20%;
+	top: 46%;
+}
+
+.slick-next {
+	right: 2%;
+}
+
+/*выравнивание стрелок на макете*/
+.slick-next {}
+.slick-prev {}
+.slick-arrow {
+	/*position: relative;*/
+	z-index: 103;
+}
+
+
+/*font-family*/
+@font-face {
+	font-family: Red_Ring_regular;
+	src: url(assets/font/REDRING-REGULAR.OTF);
+}
+
+@font-face {
+	font-family: Red_Ring_light;
+	src: url(assets/font/Red Ring light.ttf);
+}
+
+@font-face {
+	fotn-family: Red_Ring_black;
+	src: url(assets/font/REDRING-BLACK.OTF);
+}
+
+@font-face {
+	font-family: Red_Ring_bold;
+	src: url(assets/font/Red Ring_bold.ttf);
+}
+
+@font-face {
+	font-family: Bookman_old_style__light;
+	scroll-behavior: url(assets/font/BOOKOS.TTF);
+}
+
+@font-face {
+	font-family: Bookman_old_style__italic;
+	scroll-behavior: url(assets/font/BOOKOSI.TTF);
+}
+
+@font-face {
+	font-family: Bookman_old_style__bold;
+	scroll-behavior: url(assets/font/BOOKOSB.TTF);
+}
+
+@font-face {
+	font-family: Bookman_old_style__bold-italic;
+	scroll-behavior: url(assets/font/BOOKOSBI.TTF);
+}
+
+
+#menu-wrap {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.top-menu__container {
+	display: block;
+    position: relative;
+    z-index: 1002;
+    width: 100%;
+    border: solid 0px #09f;
+    margin-top: -1.6em;
+    margin-top: -62px;
+    font-size: 22px;
+}
+.top-menu__container ul.top-menu__list {
+	list-style-type: none;
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: normal;
+        -ms-flex-pack: normal;
+            justify-content: normal;
+    -webkit-box-align: normal;
+        -ms-flex-align: normal;
+            align-items: normal;
+    width: 90%;
+	margin: 0 auto;
+}
+.top-menu__container .top-menu__list li {
+	display: block;
+	margin: 0;
+	width: calc(100% / 4);
+}
+.top-menu__container .top-menu__list li.top-menu__item {}
+.top-menu__container .top-menu__list li * {}
+.top-menu__container .top-menu__list li a.top-menu__item__link {
+	display: block;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+    margin: 0;
+    padding: 1em;
+}
+/*.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link:nth-child(1),*/
+.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link1{
+	background-color: #82D0E3;
+}
+/*.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link:nth-child(2),*/
+.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link2{
+	background-color: #E8C456;
+}
+/*.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link:nth-child(3),*/
+.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link3{
+	background-color: #E7875A;
+}
+/*.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link:nth-child(4),*/
+.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link4{
+	background-color: #7EC49D;
+}
+
+
+/*******/
+/*media*/
+/*******/
+/*******************/
+/*******media*******/
+/*******************/
+
+/*large pc*/
+@media (min-device-width: 1367px) {
+	#babyswimming-our-contacts {
+		display: block;
+		height: 878px;
+		overflow: hidden;
+		border: solid 0px #ebebeb;
+	}
+
+	.sl__slide {
+		height: 878px;
+	}
+
+	.sl__text {
+		width: 60%;
+		top: 6%;
+	}
+}
+
+
+/*pc*/
+@media (min-device-width: 991px) and (max-device-width: 1366px) {
+	.sl__slide {
+		height: 600px;
+	}
+	.sl__text {
+		width: 60%;
+		top: 6%;
+	}
+}
+
+
+/*ipad pro*/
+@media (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {}
+
+
+/*ipad*/
+@media (min-device-width: 768px) and (max-device-width: 990px) {}
+
+
+/*ipad*/
+@media (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+
+/*ipad portrait*/
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {}
+
+
+/*ipad portrait*/
+@media (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {}
+
+
+/*iphone orientation landscape*/
+@media (min-device-width: 480px) and (max-device-width: 767px) {}
+
+
+/*iphone orientation portraite*/
+@media (min-device-width: 240px) and (max-device-width: 479px) {
+	/*********/
+	/*слайдер*/
+	.sl__zag1 {
+		font-size: 38px;
+	}
+	.slick-next {
+		right: 13%;
+	}
+	.slick-prev {
+		left: 6%;
+	}
+
+
+	/*******/
+	/*шапка*/
+	.container1 > .top-nav {
+		background-image: none !important;
+		background-size: 0;
+		display: block;
+		border: solid 0px #fff;
+		margin: 0;
+		padding: 0;
+		display: -webkit-box !important;
+		display: -ms-flexbox !important;
+		display: flex !important;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	} 
+
+	.top-nav > .top-nav__logo {
+		display: block;
+		width: 100%;
+		border: solid 0px #09f;
+	    background-image: url(assets/img/kimberly-fit__logo--transparent.png);
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	}
+
+	.top-nav > .top-nav__adr {
+		font-size: 20px;
+		text-align: center;
+	}	
+
+	.top-nav > .top-nav__tel {
+		text-align: center;
+		margin-top: 1em;
+	}
+
+	.top-nav > .top-nav__tel > a.top-nav__tel-link > span.top-nav__tel-num {
+		color: #d33f3c;
+		font-weight: 600;
+		font-size: 9vw;
+	}
+
+
+	/*********/
+	/*слайдер*/
+	.slide_1,
+	.slide_2,
+	.slide_2 {
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.sl__text {
+		top: -40px;
+	}
+
+	.slide_1 {
+		background-position: center;
+	}
+	.slide_2 {
+		background-position: center;
+	}
+	.slide_3 {
+		background-position: center;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*дисплей menu - start*/
+	div.top-menu__container {}
+	.top-menu__container ul.top-menu__list {
+		padding: 0;
+		display: block;
+		width: 100%;
+	}
+	.top-menu__container .top-menu__list li {}
+	.top-menu__container .top-menu__list li.top-menu__item {
+		width: 100%;
+	}
+	.top-menu__container .top-menu__list li * {}
+	.top-menu__container .top-menu__list li a.top-menu__item__link {}
+	.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link1{}
+	.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link2{}
+	.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link3{}
+	.top-menu__container .top-menu__list li.top-menu__item a.top-menu__item__link4{}
+	/*дисплей menu - edn*/
+
+
+
+}

@@ -1,0 +1,198 @@
+/**********************/
+/*осн стили для макета*/
+/**********************/
+@charset "utf-8"
+body{
+	margin: 0;
+	padding: 0;
+}
+
+body,
+body * {
+	box-sizing: border-box;
+}
+
+.babyswimming_head-image{
+	background-image: url('http://www.kimberly.ru/experiments/lp-babyswimming/baby.jpg');
+	background-repeat: no-repeat;
+	background-position: top left;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+	display: block;
+	width: 100%;
+	height: 600px;
+	height: 100%;
+	max-height: 640px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+/*jivo*/
+.label_39._bottom_3v._pad100_GR, .label_39._left_2d._pad100_GR, .label_39._right_1y._pad100_GR {
+/*	background-color: #0099ff !important;*/
+}
+
+/*********/
+/* slick */
+/*********/
+
+.babyswimmingOtzyvy {
+	max-width: 700px;
+	margin: 20px auto;
+}
+.sl__slide:hover, .sl__slide:active, .sl__slide:focus, .sl__slide:focus-within, .sl__slide:visited{
+	border: 0px solid #fff !important;
+}
+
+.slick-list .draggable:hover,
+.slick-list .draggable:active,
+.slick-list .draggable:focus,
+.slick-list .draggable:focus-within,
+.slick-list .draggable:visited {
+	border: none;
+}
+
+.slick-list,
+.slick-list:hover,
+.slick-list:active,
+.slick-list:focus,
+.slick-list:focus-within,
+.slick-list:visited {
+	border: none;
+}
+
+/*стили для слайдера*/
+
+.sl__slide {
+	position: relative;
+	border: none;
+	display: block;
+}
+
+.sl__slide {
+	display: block;
+	box-sizing: border-box;
+	height: 600px;
+}
+
+.sl__slide:hover {
+	border: none;
+}
+
+.sl__text {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	color: #333;
+	text-align: left;
+	padding: 20px 0;    
+}
+.sl__zag,
+.sl__desc {
+	margin: 0;
+	padding: 0 10px;
+	text-align: left !important;
+}
+
+.sl__zag {
+	box-sizing: border-box;
+	padding: 10px;
+	line-height: normal !important;
+}
+
+.sl__desc {
+	background: #fff;
+	font-size: 19px;
+}
+
+.sl__zag span {
+	margin-left: 10px;
+	background: #ff8700;
+	padding: 0 10px;
+}
+
+/*стрелка от автора к комментарию*/
+.arrow_box {
+	position: relative;
+	background: #ff8700;
+	border: 3px solid #fff;
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 10%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(255, 135, 0, 0);
+	border-top-color: #ff8700;
+	border-width: 20px;
+	margin-left: -20px;
+}
+.arrow_box:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fff;
+	border-width: 24px;
+	margin-left: -24px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	font-size: 46px;
+}
+.slick-prev {
+	left: -25px;
+	left: -4vw;
+	left: -50px;
+}
+.slick-prev:before, .slick-next:before {
+	color: #3d9be9;
+	color: #ff8700;
+}
+
+/*альтернативные стрелки*/
+
+.slick-prev::before,.slick-prev:before {
+	content: '\2039';
+}
+
+.slick-prev:before, .slick-next:before {
+	font-size: 130px;
+}
+
+.slick-next:before {
+	content: '\203A';
+}
+
+.slick-prev {
+	left: -60px;
+}
+.slick-prev, .slick-next {
+	top: 20%;
+}
+
+/*стили для слайдера если вертикальная прокрутка*/
+
+
+/*******************/
+/*******media*******/
+/*******************/
+
+@media (min-width: 1367px) {
+	.babyswimming_head-image {max-height: 800px;
+	    background-position-y: center;}
+}
+@media (max-width: 768px) {
+	.babyswimming_head-image{
+		background-image: url('http://www.kimberly.ru/experiments/lp-babyswimming/baby_Swimming__img1-mobile-portraite-min.jpg');
+		background-position: center center;
+	}
+}
